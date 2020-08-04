@@ -1,9 +1,0 @@
-{
-    "data" : {
-        "properties" : {
-            "url" : {
-                "type" : "nested"
-             }
-        }
-    }
-}

@@ -1,9 +1,0 @@
-{
-    "index": {
-        "mappings": {
-            "properties" : {
-                "my_attachment" : { "type" : "attachment" }
-            }
-        }
-    }
-}
