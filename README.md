@@ -380,3 +380,7 @@ under the License.
 [Gradle]: http://www.gradle.org/
 [REST]: http://www.elastic.co/guide/en/elasticsearch/reference/current/api-conventions.html
 [DistributedCache]: http://hadoop.apache.org/docs/stable/api/org/apache/hadoop/filecache/DistributedCache.html
+
+## maven compilation commands for mr and spark/core and spark/sql-30
+mvn clean install -Dcheckstyle.skip -Dmaven.test.skip=true -Dmaven.javadoc.skip=true -Drat.skip=true -Drat.ignoreErrors=true
+For usage of es-hadoop in spark 3.0.0 we need mr jar spark/core and spark/sql-30 jars for using es from structured streaming jobs
